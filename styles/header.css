@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 145px;
+    margin-bottom: 30px;
+}
+.navbar {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.contact-button-ref, .project-button-ref{
+    width: 110px;
+    height: 50px;
+}
+.projects-button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: #93c1da;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 140%;
+    opacity: 1;
+    cursor: pointer;
+}
+.projects-button:hover {
+    opacity: 0.7;
+    transition: opacity 0.25s;
+}
+.contact-button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: #93c1da;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 140%;
+    cursor: pointer;
+}
+.contact-button:hover {
+    opacity: 0.7;
+    transition: opacity 0.25s;
+}
+
