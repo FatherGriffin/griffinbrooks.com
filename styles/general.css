@@ -4,6 +4,8 @@ body {
     height: 1600px;
 }
 p {
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
     text-align: center;
+    color: rgb(42, 42, 46);
 }

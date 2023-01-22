@@ -14,8 +14,12 @@
         min-width: 250px;
     }
     .about-title {
-        font-size: 30px;
         margin-bottom: 0;
+        font-size: 35px;
+    }
+    .links-buttons {
+        margin-top: 5px;
+        margin-bottom: 16px;
     }
     .navbar {
         width: 70%;
@@ -37,8 +41,12 @@
         min-width: 250px;
     }
     .about-title {
-        font-size: 30px;
         margin-bottom: 0;
+        font-size: 35px;
+    }
+    .links-buttons {
+        margin-top: 5px;
+        margin-bottom: 16px;
     }
     .navbar {
         width: 60%;
@@ -60,7 +68,12 @@
         min-width: 250px;
     }
     .about-title {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+    .links-buttons {
+        margin-top: 5px;
+        margin-bottom: 0;
     }
     .navbar {
         width: 50%;
@@ -78,7 +91,15 @@
         justify-content: space-around;
     }
     .about-title {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+    .links-buttons {
+        margin-top: 6px;
+        margin-bottom: 0;
+    }
+    .navbar {
+        width: 40%;
     }
 }
 @media (min-width: 1200px) {
@@ -93,9 +114,14 @@
         justify-content: space-around;
     }
     .about-title {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
+        font-size: 45px;
+    }
+    .links-buttons {
+        margin-top: 6px;
+        margin-bottom: 0;
     }
     .navbar {
-        width: 40%;
+        width: 30%;
     }
 }

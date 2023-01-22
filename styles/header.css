@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 145px;
-    margin-bottom: 30px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 .navbar {
     display: inline-flex;
@@ -21,7 +21,7 @@
     background-color: transparent;
     color: #93c1da;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 140%;
+    font-size: 21px;
     opacity: 1;
     cursor: pointer;
 }
@@ -36,7 +36,7 @@
     background-color: transparent;
     color: #93c1da;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 140%;
+    font-size: 21px;
     cursor: pointer;
 }
 .contact-button:hover {

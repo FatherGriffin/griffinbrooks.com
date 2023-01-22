@@ -4,6 +4,22 @@
     justify-content: center;
     height: 600px;
 }
+
+.about-bio {
+    margin-top: 20px;
+    box-shadow: 5px;
+    width: 80%;
+}
+.about-bio-title {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.about-bio-text {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 .about-contents {
     display: flex;
     flex-direction: column;
@@ -11,28 +27,22 @@
     height: 100%;
     width: 55%;
 }
+.about-elements {
+    display: inline-block;
+}
 .about-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 50%;
     width: 100%;
     margin-bottom: 50px;
 }
-.about-elements {
-    display: inline-block;
-}
 .about-title {
-    font-size: 35px;
     min-width: 20%;
     margin: 0;
-    color: black;
-}
-.links-buttons {
-    height: 30px;
-    display: flex;
-    justify-content: center;
+    font-family: 'Caveat', cursive;
 }
 .linkedin-ref, .insta-ref, .github-ref {
     margin-left: 4%;
@@ -51,6 +61,11 @@
     width: 25px;
     opacity: 65%;
 }
+.links-buttons {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
 .profile-container {
     display: flex;
     align-items: center;
@@ -61,7 +76,5 @@
     border-radius: 50%;
     height: 100%;
     width: 100%;
-}
-.about-bio {
-    background-color: rgb(65, 144, 144);
+    opacity: 100%;
 }
