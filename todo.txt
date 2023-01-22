@@ -1,0 +1,3 @@
+Make about section fit on phone screen - responsive 
+Fix button click transitions
+Make projects & contact divs
