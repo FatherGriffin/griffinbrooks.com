@@ -1,24 +1,10 @@
+
+/** About - General*/
 .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 600px;
-}
-
-.about-bio {
-    margin-top: 20px;
-    box-shadow: 5px;
-    width: 80%;
-}
-.about-bio-title {
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 22px;
-    margin-bottom: 0;
-}
-.about-bio-text {
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 .about-contents {
     display: flex;
@@ -27,9 +13,8 @@
     height: 100%;
     width: 55%;
 }
-.about-elements {
-    display: inline-block;
-}
+
+/** About - Header */
 .about-header {
     display: flex;
     flex-direction: row;
@@ -37,13 +22,29 @@
     align-items: center;
     height: 50%;
     width: 100%;
-    margin-bottom: 50px;
+}
+.about-elements {
+    display: inline-block;
 }
 .about-title {
     min-width: 20%;
     margin: 0;
     font-family: 'Caveat', cursive;
 }
+.profile-container {
+    display: flex;
+    align-items: center;
+    max-width: 30%;
+    min-width: 20%;
+}
+.profile-picture {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    opacity: 100%;
+}
+
+/** About - Header - Elements - Buttons */
 .linkedin-ref, .insta-ref, .github-ref {
     margin-left: 4%;
     margin-right: 4%;
@@ -66,15 +67,22 @@
     display: flex;
     justify-content: center;
 }
-.profile-container {
-    display: flex;
-    align-items: center;
-    max-width: 30%;
-    min-width: 20%;
+
+/** About - Header - Bio*/
+.about-bio {
+    box-shadow: 5px;
+    width: 80%;
 }
-.profile-picture {
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-    opacity: 100%;
+.about-bio-title {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 22px;
 }
+.about-bio-text {
+    font-size: 17px;
+}
+
+
+
+
+
+

@@ -1,141 +1,166 @@
+
 @media (max-width: 450px) {
-    .about-bio-title {
-        margin-top: 5px;
-    }
-    .about-container {
-        height: 700px;
-    }
-    .about-contents {
-        width: 90%;
-    }
-    .about-header {
-        flex-direction: column;
-        justify-content: space-around;
-        margin-bottom: 0;
-    }
+    /**Page Header*/
     .header {
-        margin-bottom: 0px;
         height: 135px;
-    }
-    .profile-container {
-        min-width: 250px;
-    }
-    .about-title {
-        margin-bottom: 5px;
-        font-size: 35px;
-    }
-    .links-buttons {
-        margin-top: 5px;
-        margin-bottom: 16px;
     }
     .navbar {
         width: 70%;
     }
-}
-@media (min-width: 451px) {
-    .about-bio-title {
-        margin-top: 5px;
-    }
+
+    /**About Section*/
     .about-container {
         height: 700px;
     }
     .about-contents {
         width: 90%;
     }
+
+    /**About Section - Header*/
     .about-header {
         flex-direction: column;
         justify-content: space-around;
-        margin-bottom: 5px;
     }
-    .header {
-        margin-bottom: 0px;
-        height: 135px;
-    }
+    
     .profile-container {
         min-width: 250px;
     }
     .about-title {
-        margin-bottom: 0;
         font-size: 35px;
     }
-    .links-buttons {
-        margin-top: 5px;
-        margin-bottom: 16px;
+
+    /**About Section - Bio*/
+
+}
+@media (min-width: 451px) {
+    /**Page Header*/
+    .header {
+        height: 135px;
     }
     .navbar {
         width: 60%;
     }
-}
-@media (min-width: 730px) {
+
+    /**About Section*/
     .about-container {
         height: 700px;
     }
     .about-contents {
         width: 90%;
     }
-    .about-header {
-        flex-direction: row;
-        justify-content: space-around;
 
+    /**About Section - Header*/
+    .about-header {
+        flex-direction: column;
+        justify-content: space-around;
     }
     .profile-container {
         min-width: 250px;
     }
     .about-title {
-        margin-bottom: 0px;
         font-size: 40px;
     }
-    .links-buttons {
-        margin-top: 5px;
-        margin-bottom: 0;
+
+    /**About Section - Bio*/
+}
+@media (min-width: 730px) {
+    /**Page Header*/
+    .header {
+        height: 145px;
     }
     .navbar {
         width: 50%;
     }
+
+    /**About Section*/
+    .about-container {
+        height: 700px;
+    }
+    .about-contents {
+        width: 90%;
+    }
+
+    /**About Section - Header*/
+    .about-header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .profile-container {
+        min-width: 250px;
+    }
+    .about-title {
+        font-size: 40px;
+    }
+
+    /**About Section - Bio*/
+
 }
 @media (min-width: 800px) {
+
+    /**Page Header*/
+    .header {
+        height: 150px;
+    }
+    .navbar {
+        width: 40%;
+    }
+
+    /**About Section*/
     .about-container {
         height: 700px;
     }
     .about-contents {
         width: 75%;
     }
+
+    /**About Section - Header*/
     .about-header {
         flex-direction: row;
         justify-content: space-around;
     }
     .about-title {
-        margin-bottom: 0px;
         font-size: 40px;
     }
-    .links-buttons {
-        margin-top: 6px;
-        margin-bottom: 0;
-    }
-    .navbar {
-        width: 40%;
-    }
+
+    /**About Section - Bio*/
+ 
 }
 @media (min-width: 1200px) {
+    /**Page Header*/
+    .header {
+        height: 160px;
+        margin-bottom: 10px;
+    }
+    .navbar {
+        width: 30%;
+    }
+    
+    /**About Section*/
     .about-container {
         height: 700px;
     }
     .about-contents {
         width: 60%;
     }
+
+    /**About Section - Header*/
     .about-header {
         flex-direction: row;
         justify-content: space-around;
+        margin-bottom: 60px;
     }
     .about-title {
-        margin-bottom: 0px;
         font-size: 45px;
     }
-    .links-buttons {
-        margin-top: 6px;
-        margin-bottom: 0;
+
+    /**About Section - Bio*/
+    .about-bio-title {
+        margin-top: 0;
+        margin-bottom: 15px;
     }
-    .navbar {
-        width: 30%;
+    .about-bio-text {
+        margin-top: 0px;
+        margin-bottom: 28px;
     }
 }
